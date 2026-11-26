@@ -1,0 +1,36 @@
+{
+  "seed": 14390875984496981921,
+  "reward": 0,
+  "checks": {
+    "check1_cli": {
+      "passed": false,
+      "weight": 0.15,
+      "detail": "case 1: exit code 2: usage: reconcile.py <transactions.csv>"
+    },
+    "check2_status": {
+      "passed": false,
+      "weight": 0.25,
+      "detail": "case 1: exit code 2: usage: reconcile.py <transactions.csv>"
+    },
+    "check3a_offsets": {
+      "passed": false,
+      "weight": 0.2,
+      "detail": "case 1: exit code 2: usage: reconcile.py <transactions.csv>"
+    },
+    "check3b_exact_tie": {
+      "passed": false,
+      "weight": 0.1,
+      "detail": "case 1: exit code 2: usage: reconcile.py <transactions.csv>"
+    },
+    "check3c_nanoseconds": {
+      "passed": false,
+      "weight": 0.2,
+      "detail": "case 1: exit code 2: usage: reconcile.py <transactions.csv>"
+    },
+    "check3d_lower_z": {
+      "passed": false,
+      "weight": 0.1,
+      "detail": "case 1: exit code 2: usage: reconcile.py <transactions.csv>"
+    }
+  }
+}

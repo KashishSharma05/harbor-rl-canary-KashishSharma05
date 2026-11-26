@@ -1,0 +1,22 @@
+/Users/kashishsharma/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/cli/tasks.py:111: SyntaxWarning: invalid escape sequence '\['
+  Option("--no-package", help="Do not include \[task] section in task.toml."),
+  3/3 Mean: 0.000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:04:09 0:00:00
+adhoc • terminus-2 • gemini-3.5-flash-lite
+┏━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┳━━━━━━━━┓
+┃ Trials ┃ Exceptions ┃  Mean ┃ Pass@2 ┃
+┡━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━╇━━━━━━━━┩
+│      3 │          0 │ 0.000 │  0.000 │
+└────────┴────────────┴───────┴────────┘
+
+┏━━━━━━━━┳━━━━━━━┓
+┃ Reward ┃ Count ┃
+┡━━━━━━━━╇━━━━━━━┩
+│ 0.0    │     3 │
+└────────┴───────┘
+
+Job Info
+Total runtime: 4m 9s
+Results written to jobs/run1_baseline/result.json
+Inspect results by running `harbor view jobs`
+Share results by running `harbor upload jobs/run1_baseline`
+

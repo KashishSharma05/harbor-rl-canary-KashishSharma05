@@ -1,0 +1,36 @@
+{
+  "seed": 2578330365649510757,
+  "reward": 0.8,
+  "checks": {
+    "check1_cli": {
+      "passed": true,
+      "weight": 0.15,
+      "detail": "4 random cases passed"
+    },
+    "check2_status": {
+      "passed": true,
+      "weight": 0.25,
+      "detail": "4 random cases passed"
+    },
+    "check3a_offsets": {
+      "passed": true,
+      "weight": 0.2,
+      "detail": "4 random cases passed"
+    },
+    "check3b_exact_tie": {
+      "passed": true,
+      "weight": 0.1,
+      "detail": "4 random cases passed"
+    },
+    "check3c_nanoseconds": {
+      "passed": false,
+      "weight": 0.2,
+      "detail": "case 1: got {'total_valid_amount': 12772.41, 'valid_count': 3, 'failed_count': 2}, expected {'total_valid_amount': 14454.85, 'valid_count': 4, 'failed_count': 1}"
+    },
+    "check3d_lower_z": {
+      "passed": true,
+      "weight": 0.1,
+      "detail": "4 random cases passed"
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+    "schema_version": 1,
+    "id": "47d3cf6d-4250-481a-8fc4-30e473478255",
+    "task_name": "kashishsharma05/reconcile-bug",
+    "trial_name": "reconcile-bug__JanXZSJ",
+    "trial_uri": "file:///Users/kashishsharma/harbor-rl-canary-KashishSharma05/jobs/run2_ablation__regraded_dense/reconcile-bug__JanXZSJ",
+    "task_id": {
+        "path": "tasks/reconcile-bug"
+    },
+    "source": null,
+    "task_checksum": "f43d9031e6cc023bde2bbbd300280bbf35dee8fd52728c8b8e4db2c0249841cc",
+    "config": {
+        "schema_version": 1,
+        "task": {
+            "path": "tasks/reconcile-bug",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "reconcile-bug__JanXZSJ",
+        "trials_dir": "jobs/run2_ablation__regraded_dense",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "terminus-2",
+            "import_path": null,
+            "model_name": "gemini/gemini-3.5-flash-lite",
+            "base_url": null,
+            "model_api_key_name": null,
+            "model_api_format": null,
+            "skip_model_parsing": false,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "override_error_policy": {},
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "202da5e6-f49a-414b-a798-7e894c7aabb7",
+        "source_trial": {
+            "action": "regrade",
+            "type": "local",
+            "trial_id": "11ba9101-85db-46df-8156-adeabded87ef",
+            "path": "/Users/kashishsharma/harbor-rl-canary-KashishSharma05/jobs/run2_ablation/reconcile-bug__aUKZTM8"
+        }
+    },
+    "agent_info": {
+        "name": "terminus-2",
+        "version": "2.0.0",
+        "model_info": {
+            "name": "gemini-3.5-flash-lite",
+            "provider": "gemini"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 362266,
+        "n_cache_tokens": 270551,
+        "n_output_tokens": 19916,
+        "cost_usd": 0.08542103,
+        "model_usage": {
+            "gemini-3.5-flash-lite": {
+                "n_input_tokens": 362266,
+                "n_cache_tokens": 270551,
+                "n_output_tokens": 19916,
+                "cost_usd": 0.08542103
+            }
+        },
+        "rollout_details": [],
+        "metadata": {
+            "n_episodes": 22,
+            "api_request_times_msec": [
+                1763.5161876678467,
+                3592.63277053833,
+                1538.642168045044,
+                1964.5507335662842,
+                6828.487396240234,
+                3251.354217529297,
+                4128.186941146851,
+                1944.615125656128,
+                4046.0751056671143,
+                9143.978834152222,
+                4995.679140090942,
+                3701.94411277771,
+                5354.473829269409,
+                4150.501012802124,
+                3187.6540184020996,
+                4245.154857635498,
+                1717.7588939666748,
+                4238.9466762542725,
+                5342.830181121826,
+                3580.744981765747,
+                2742.316246032715,
+                2902.2181034088135
+            ],
+            "summarization_count": 0
+        }
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 1.0
+        }
+    },
+    "verifier_environment_mode": "separate",
+    "exception_info": null,
+    "started_at": "2026-11-26T17:19:48.716186Z",
+    "finished_at": "2026-11-26T17:20:02.413803Z",
+    "environment_setup": null,
+    "agent_setup": null,
+    "agent_execution": null,
+    "verifier": {
+        "started_at": "2026-11-26T17:19:48.834792Z",
+        "finished_at": "2026-11-26T17:20:02.413794Z"
+    },
+    "step_results": null,
+    "reward_valid": true
+}

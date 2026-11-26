@@ -1,0 +1,17 @@
+{
+  "reward": 0.0,
+  "checks": {
+    "check1_cli": {
+      "passed": false,
+      "detail": "exit code 2: usage: reconcile.py <transactions.csv>"
+    },
+    "check2_status": {
+      "passed": false,
+      "detail": "exit code 2: usage: reconcile.py <transactions.csv>"
+    },
+    "check3_dedup_tz": {
+      "passed": false,
+      "detail": "exit code 2: usage: reconcile.py <transactions.csv>"
+    }
+  }
+}
